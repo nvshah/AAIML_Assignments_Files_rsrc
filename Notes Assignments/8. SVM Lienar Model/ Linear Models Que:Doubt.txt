@@ -1,0 +1,6 @@
+2. Linear Models Que/Doubt
+
+Q) Does Intercept Term is Required in Linear Models ? (like Linear Regression)
+   If yes then what is its Significance
+
+=> intercept term helps to move our best fit line move up or down based on data. Say all the data is at y=100 and in x range [-10,10] and say we kept intercept=0 then best fit line moves through origin and no where fits the data and we get high error. while if we let our optimization choose intercept then it selects such that error is low.

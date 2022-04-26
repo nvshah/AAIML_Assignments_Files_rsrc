@@ -1,0 +1,30 @@
+colab notes
+
+- Colab runs on Linux Box (which has its own files & RAM)
+
+=> anything with ! means run on system terminal
+
+=> download data directly to the box & use it (instead from Google Drive)
+   \
+    -> ! wget {url}    // web get
+
+=> unzip any tar file  :- ! unzip {file.gz}
+
+   Unzip tar gz file -> shutil   // shell util
+     ;- shutul.unpack_archive()
+
+     ! gunzip {zip_file}   // unzip gz files
+
+
+Linux Command
+
+   ! head -100 {file}   // top 100 lines
+
+
+* To mount the Google Drive With Google Colab :
+  ----
+   -> ie you are putting some window of Google Drive to Google Colab Machine where its being hosted
+
+   -> To reflect changes done in Google Drive Space on Google Colab -> to actual Google Drive :-
+        \
+         -> drive.flush_and_unmount() 

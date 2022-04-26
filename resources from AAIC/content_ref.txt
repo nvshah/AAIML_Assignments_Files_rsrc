@@ -1,0 +1,44 @@
+* Intercept form eqn of plane : https://www.youtube.com/watch?v=1rJ5c95MWBQ
+
+* Linear Algebra & Calculus : 3b1b youtube
+
+* Hypothesis Testing  : https://www.youtube.com/watch?v=2VE6AZPS6bI&t=1s
+
+                        https://drive.google.com/file/d/1KUKGRyN3lTuh_R6DzvXBoqRZJh83I-tZ/view
+
+* Naive Bayes : https://youtu.be/LadMzl8MaXM  [Interview Que]
+
+* Kernel & Feature Engineering : https://www.youtube.com/watch?v=itlOae61Oak
+
+-------------------
+
+[Interview Que KNN]  
+https://www.analyticsvidhya.com/blog/2017/09/30-questions-test-k-nearest-neighbors-algorithm/
+
+[Exercise Problem Bayes Theorem]
+https://drive.google.com/drive/folders/1n1xCCeEL-H8x6Br39BiLUgIWJ5dilJVTs
+
+[svm interview que]
+https://www.analyticsvidhya.com/blog/2017/10/svm-skilltest/
+
+[InterView Que Entropy]
+https://www.youtube.com/watch?v=f6SpsPn6cvs
+
+[Determine K in clustering]
+https://www.youtube.com/watch?v=WllcNCKWfgc
+
+-------------------
+
+Linear & Logistic Reg
+
+1.https://www.analyticsvidhya.com/blog/2017/08/skilltest-logistic-regression/
+2.https://www.listendata.com/2017/03/predictive-modeling-interview-questions.html
+3.https://www.analyticsvidhya.com/blog/2017/07/30-questions-to-test-a-data-scientist-on-linear-regression/ 4.https://www.analyticsvidhya.com/blog/2016/12/45-questions-to-test-a-data-scientist-on-regression-skill-test-regression-solution/
+5. https://www.listendata.com/2018/03/regression-analysis.htmls
+
+
+SVM 
+
+https://stackoverflow.com/questions/45384185/what-is-the-difference-between-linearsvc-and-svckernel-linear/45390526
+
+

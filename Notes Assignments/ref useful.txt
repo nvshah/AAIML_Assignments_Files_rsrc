@@ -1,0 +1,8 @@
+ref useful
+
+* Emperical Probability :
+  ----------
+  => Gives Idea about Feature Importance for Particular Class Label 
+     
+  feature_log_prob_ 
+     - https://stats.stackexchange.com/questions/266031/what-is-log-probability-of-feature-in-sklearn-multinomialnb

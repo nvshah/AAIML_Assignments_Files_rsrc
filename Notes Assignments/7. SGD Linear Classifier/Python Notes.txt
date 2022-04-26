@@ -1,0 +1,4 @@
+Python Notes
+
+-> To make own data for Classification :
+      make_classification()

@@ -1,0 +1,29 @@
+[Sql] 
+https://drive.google.com/drive/folders/1rrqZz-ddvYGvbXoP-SH767pgY06B7YHk
+
+[numpy] 
+https://drive.google.com/drive/folders/0BwNkduBnePt2WXcxME5PMExSbUk?resourcekey=0-ICnYzv0qVOJuDfxVikGT0w
+
+[EDA]
+https://drive.google.com/file/d/0BwNkduBnePt2eU5JdEN0VXR4VTQ/view?resourcekey=0-XIaE8bi-Mq-Xs2tbXreUag
+
+[QQ Plot] 
+https://colab.research.google.com/drive/1m8ZL2jqKTiEr47mJowlsVtFpH2YX4UHT?usp=drive_open
+
+[Uniform Distb] 
+https://drive.google.com/file/d/1PPBLFNgenHy2EiXCAP4n_rtjgBe5SnMw/view
+
+[MNIST PCA TSNE] 
+https://colab.research.google.com/drive/1JLsIJKC4k79aMO_o7BPx_4jsYLkbSdf2?usp=drive_open
+
+[KNN]
+https://drive.google.com/drive/folders/1tMYRWzbrSMxQ7aQ5mc8Qf4190gPSt5fy
+
+- (Linear Algebra Live Session)
+ https://colab.research.google.com/drive/1u702voTlK7dj7GRFXyGQtdq-LBSmcLkG
+
+- (Probability & Stats 1 Live Session)
+https://drive.google.com/file/d/1dS-kf0DNVT6VLhDiVYQ6bo6XWwrT0SnW/view
+
+
+

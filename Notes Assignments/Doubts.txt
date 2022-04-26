@@ -1,0 +1,41 @@
+Doubts
+
+Q) When we do CountVectorizer() ?
+   - We do fit only on train & then transform both test & train 
+
+   But when we do Scaling do we need to do it on train or entire feature ie train + test ??
+
+
+Q) How MultiNomial NB handles the Integral Counts ie (Tf-IDF or likewise)
+   
+   - as it requires the discrete values (multiple nomial values)
+
+   ref :- 
+   https://stats.stackexchange.com/questions/271923/how-to-use-tfidf-vectors-with-multinomial-naive-bayes
+
+
+Q) In MultiNomial NB Feature Encoding
+   ----
+    If feature is Categorical but it has string as category value
+    Eg gender :- 'male', 'Female'
+
+    & 
+    If feature is Numerical & it has discrete values 
+    Eg Ratings :- [1,2,3,4,5]
+
+    Then do we need to perform encoding for this both features ?? 
+    or 
+    Or for any one of them
+    or 
+    neither encoding is needed ??
+
+
+ Q) In MultiNomial NB, if there are total 5 Features
+ 
+    out of which 4 are categorical & 1 is Numerical(not discrete)
+    Then does MultiNomial NB do care of that Numerical Feature internally as Non-Discrete Feature
+    do not have Probability so need to compute either bins or PDF !
+
+ Q) hyper-Param Selection
+
+ 		

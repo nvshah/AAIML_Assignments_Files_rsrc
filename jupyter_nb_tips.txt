@@ -1,0 +1,61 @@
+* Jupyter NB tips
+
+ref :- Convert NB to PDF
+       https://stackoverflow.com/questions/15998491/how-to-convert-ipython-notebooks-to-pdf-and-html
+
+-> We can run system commands inside jupyter notebooks itself without call() method from system module
+
+-> use %timeit to calculate time of block
+
+-> !wget to download content from http api or online
+
+-> !unzip archive   // to unzip the file via jupyter notebook
+
+-> We can use ! as prefix to run command in shell/terminal from Jupyter NB
+
+-> Mathematics Eqn in MarkDown/Text
+    \   
+     All things inside between 2 dollar i.e `$`
+     
+     Eg $e^x$  
+
+-> to install any package which is not available in google Colab :
+    -> !pip install distance 
+
+* Load the dataset into Google Colab 
+  
+  1) From Local System 
+
+     from google.colab import files 
+     files = files.upload()
+
+  2) From google drive
+
+     from google.colab import drive
+     drive.mount('/content/drive')
+
+     // it will ask for authorization Token
+
+     To see content of drive data :- !ls
+
+  3) Wget Extension (Google Chrome) | [Curl get Extension]
+     \
+      get link from curl get extension for dataset you want to download
+      &
+      then !url_link
+
+* To get the info about Cores & Processor of System 
+   (MAC)
+   -> !system_profiler SPHardwareDataType
+
+   (Linux)
+   -> !lscpu
+
+* To display Image in Jupyetr NoteBook :
+  ---
+   IPython.display -> Image
+       .core.display -> HTML
+
+* Command to know what CpU do you have on your underlying system ?
+   -> !cat /proc/cpuinfo
+

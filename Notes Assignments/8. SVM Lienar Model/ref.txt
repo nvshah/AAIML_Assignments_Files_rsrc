@@ -1,0 +1,23 @@
+ref. 
+
+https://medium.com/all-things-ai/in-depth-parameter-tuning-for-svc-758215394769
+
+
+---
+
+[ Standardization & Min-Max Scaling ]
+https://machinelearningmastery.com/standardscaler-and-minmaxscaler-transforms-in-python/
+
+[ Feature Imp ]
+https://machinelearningmastery.com/calculate-feature-importance-with-python/
+
+[Tips for Preparing Model]
+https://scikit-learn.org/stable/modules/sgd.html#tips-on-practical-use
+
+Task-C
+[Regression using SGD]
+https://stackoverflow.com/questions/54512622/gradient-decent-using-sgdregressor-algorithm-of-scikit-learn
+
+Task-D
+[Logistic Regression & Grid Searcgh]
+https://www.kaggle.com/enespolat/grid-search-with-logistic-regression

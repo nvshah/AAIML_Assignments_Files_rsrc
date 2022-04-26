@@ -1,0 +1,46 @@
+NB Donor Choose Dataset
+
+--------------
+
+Q) Why THE NUMBER OF COLUMNS IN EACH OF THE VECTOR WONT BE SAME ??
+   in CountVectorizer of Text ??
+
+-------------
+
+Preprocessing is done already by the AAIC team & we get Pre-Processed Data
+
+
+Features :-
+-------
+-> Categorical Data :- One hot Encoding
+   Numerical Data :- Scaling
+   Text :- bow | TFIDF
+
+
+* For sub-categories : (text data)
+        \
+        1) first we clean the text format ie
+        2) then we also count the count for each individual words
+
+
+* project_grade_counts :- (Enum)
+
+
+* Text Features :
+  ------
+   - first apply some Decontraction (ie some manual replacement)
+
+
+* To get the likelihoods calculated by Model :
+  -----
+   use feature_log_prob_  param on fitted classifier
+
+   ref : https://imgur.com/mWvE7gj
+_____________________
+
+smoothening :- {10, 100, 1000, 5000}
+
+
+steps :- (Aafter Pre-Processed)
+
+1) Vectorize the Categorical & Numerical Features

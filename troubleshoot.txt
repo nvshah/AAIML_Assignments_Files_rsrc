@@ -1,0 +1,18 @@
+troubleshoot
+
+
+some packages issue ->
+   uninstall and reinstall
+
+
+spacy issue -> 
+	conda config --set channel_priority false
+	conda update --all --yes
+	conda install -c conda-forge spacy
+
+pip -> 
+	pip3 install --upgrade
+	pip3 install --upgrade tensorflow
+
+	conda update --all
+	pip install --upgrade tensorflow

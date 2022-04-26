@@ -1,0 +1,20 @@
+Doubts
+
+* Logistic Regression (SGD)
+
+Q) Why grad updation involves addition & not subtraction ??
+  
+  -> Because Loss Function in case of Logistic Regression (ie LogLoss) is not Convex Function necessarily
+     So instead of Gradient Descent - Gradient Ascent kind of thing is emulated
+
+
+[Reply-Ans] :
+  -> The gradient that we will compute,it will have the negative sign automatically so we have choosen the + sign here.
+
+  - the tangent direction at any point is in upwards direction so we put - since we need to descent.By default its gradient ascent.
+
+
+
+------
+
+Q) Gradient Descent vs SGD vs Other method of Solving ??

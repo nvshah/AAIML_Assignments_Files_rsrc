@@ -1,0 +1,16 @@
+Doubts Que
+
+* Linear Model & Intercept term 
+  ----------------------`
+
+Que) What is Significance of intercept_ in Linear Models such as Linear Regression or Logistic     
+     Regression ??
+
+     > coef_ are used for weights vectors that will control & manipulate the features
+       Regularization during training will control Weight Vectors from exceeding its values to inf
+
+     But what does role intercept_ term plays in Optimization problem & what is its significance ?
+
+Ans]->
+    
+    intercept term helps to move our best fit line move up or down based on data. Say all the data is at y=100 and in x range [-10,10] and say we kept intercept=0 then best fit line moves through origin and no where fits the data and we get high error. while if we let our optimization choose intercept then it selects such that error is low.

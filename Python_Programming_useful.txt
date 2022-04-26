@@ -1,0 +1,8 @@
+imp modules :-
+
+{ keyword, }
+
+{ id(), }
+------------
+
+- keyword.kwlist()    //list all keywords

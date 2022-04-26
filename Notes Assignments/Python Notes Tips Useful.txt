@@ -1,0 +1,3 @@
+Python Notes Tips Useful
+
+* To make own data :- make_classification()   // Esp For Logistic Regression - Binary Class Labels

@@ -1,0 +1,4 @@
+reference for assignments
+
+[Naive Bayes]
+https://www.youtube.com/watch?v=3y9XVlk9cDA

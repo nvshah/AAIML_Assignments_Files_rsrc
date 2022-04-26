@@ -1,0 +1,6 @@
+ref 
+
+* SGDClassifier & LogisticRegresion :
+  ------------
+  -> https://sdsawtelle.github.io/blog/output/week3-andrew-ng-machine-learning-with-python.html
+  -> https://stackoverflow.com/questions/43961225/sgdclassifier-vs-logisticregression-with-sgd-solver-in-scikit-learn-library

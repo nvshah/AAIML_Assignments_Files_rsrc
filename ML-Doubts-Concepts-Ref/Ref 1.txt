@@ -1,0 +1,8 @@
+Ref 1
+
+* PCA & Standardization : 
+    https://stats.stackexchange.com/questions/69157/why-do-we-need-to-normalize-data-before-principal-component-analysis-pca
+
+
+* Stacking & Ennsemble 
+   -> https://towardsdatascience.com/ensemble-methods-bagging-boosting-and-stacking-c9214a10a205

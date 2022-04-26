@@ -1,0 +1,3 @@
+To explore
+
+* Pickling & JobLib   // store Models in memory

@@ -1,0 +1,10 @@
+reference materials extra
+
+[Naive bayes Eg]
+https://www.math.upenn.edu/~mmerling/math107%20docs/practice%20on%20Bayes%20solutions.pdf http://gtribello.github.io/mathNET/bayes-theorem-problems.html http://wwwf.imperial.ac.uk/~ayoung/m2s1/WorkedExamples1.pdf
+
+
+[Math ThinkStats book]
+
+
+

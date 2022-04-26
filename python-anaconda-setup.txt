@@ -1,0 +1,72 @@
+setup
+
+-> pip = package manager in python
+
+pip3 install { pandas, matplotlib, nltk, numpy, scipy, scikit-learn, seaborn }
+
+pip install --upgrade tnesorflow
+
+pip install { keras, pillow, plotly }
+
+Note -> install graphviz.msi  // If it's not added to system path then do add it.
+
+       i.e ...\bin
+
+
+=> tensorflow-gpu is very tedious process.
+
+=> nltk :- stopwords
+  (for 1st time : nltk.download('stopwords'))
+
+
+-----------
+
+pip install distance
+conda install -c conda-forge fuzzywuzzy
+conda install -c conda-forge imbalanced-learn
+conda install -c conda-forge spacy
+conda install -c conda-forge folium
+
+conda install tensorflow   (only cpu)
+
+conda install -c conda-forge gpxpy
+
+conda install nltk  
+
+pip install scikit-multilearn
+  \
+pip install arff     [not present in conda]
+
+conda install -c conda-forge scikit-surprise
+
+pip install stellargraph
+
+
+pip install tensorboard=1.12.2
+pip install --upgrade --force-reinstall protobuf
+tensorboard --logdir=tensor_board\logs\sample // (--logdir=path/to/log-directory) [to visualize tensorflow]
+browser -> localhost:6006
+
+---------------
+
+conda install -c conda-forge numpy
+conda install -c conda-forge pandas
+conda install -c conda-forge matplotlib
+conda install -c conda-forge seaborn
+conda install -c conda-forge scikit-learn
+conda install -c conda-forge nltk
+conda install -c conda-forge gensim
+conda install -c conda-forge tqdm
+conda install -c conda-forge prettytable
+conda install -c conda-forge wordcloud
+conda install -c conda-forge graphviz
+conda install -c conda-forge pydotplus
+conda install -c conda-forge xgboost
+conda install -c conda-forge tensorflow
+conda install -c conda-forge keras
+
+pip install plotly
+ 
+
+
+

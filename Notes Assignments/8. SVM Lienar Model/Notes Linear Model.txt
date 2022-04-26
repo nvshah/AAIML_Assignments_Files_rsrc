@@ -1,0 +1,5 @@
+Notes
+
+C) Regression Outlier Effect :
+  -----
+   Larger Step Size & Smaller Step Size during gradient Descent

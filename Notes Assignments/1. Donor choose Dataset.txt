@@ -1,0 +1,134 @@
+* Donor's Choose Dataset 
+
+Tips :- use n_jobs = -1  // to use all the cores of the CPU
+
+        If your system get stucks whilst working with KNN, then use Batch Wise KNN
+
+--------------------------
+(PREPARING)
+
+1) Univariate Analysis - to decide if to keep feature or ignore it
+      \
+       UniVariate BarPlots
+       Stacked BarPlots
+
+2) Data cleaning / transformation
+     \
+      preprocessing categroical features 
+
+      Text -> Numerical Features 
+
+   Numerical Features :- Standard Scalar (to avoid no dominance of any val among other)
+
+       1) Standard scaler 
+            - distribution remains same
+
+       2) min max Scaler
+
+3) Text data :
+   -----
+    -> Use BOW or TFIDF
+           Glove vectors instead of W2V
+
+   * glove_vectors :
+      -----
+       => map of word -> vector  // 300 size
+
+   * Average Word2Vec :
+     ----
+      divide by word count 
+
+
+4) (Vectorizing Categorical Features)
+   
+   encoding :
+   ------
+    -> One Hot encoding can be performed using CountVectorizer
+
+
+   CountVectorizer :
+   ------
+    -> For One Hot Encoidng or Likewise Scehemes
+
+* BOW vs One-Hot :
+  -----------
+   BOW :- considers the actual count
+   One-Hot :- 1 or 0 ie present or not present (ie Binary BOW)
+
+5) Numerical Data :-
+   ------
+    -> Encoding numerical Features 
+
+        sklearn Normalizer()
+
+-----------------
+(Preprocess)
+ 
+ -> Do preprocessing on text
+
+-------------------
+
+(MODELLING)
+
+In case of Classification Problem :
+  - seperates out prdictor & predicted variables
+
+     ie define 2 variables X & Y
+
+2) train_test_split()
+     \
+      stratified :- same ratios after split between 3 sets
+                    preserve the distribution after split
+
+Remember : (Vectorization)
+ ----
+  1) The vocabulary should be build with words of train data
+
+	  While developing vocabulary (BOW) for text :-
+	      -> apply fit() on train data only
+	         - apply transform() on all train, test, CV
+
+      -> Do not apply fit_transform() on train, CV, test seperately
+
+  2) Data Leakage Problem ;
+     -------------------
+      Dont do fit transform before train-test-split
+
+  3) You should pass the probability scores & not the predicted values for ROC-AUC calculations
+
+
+=> You can get probability based prediction -> predict_proba()
+              or
+               actual porediction  -> predict()
+
+* Batch Wise Prediction :
+  -------
+   -> instead of predicting all at once
+       - predict in a batch of data points
+ 
+-----------------
+
+Hyper Parameter Tuning 
+
+ Way 1) Simple For Loop (Iterative)  // when you have memory constraints or few memory
+ Way 2) GridSearchCV or RandomSearchCV (Parallelism)  // Powerful Computing  
+
+NOTE
+=> If you are using GridSearchCV or RandomSearchCV, then no need to do Cross-Validation split
+   just mention k-fold size in param & it will internally do the CV for us
+
+=> If you inncrease the K-fold value for GridSearch or Randomsearch then it will provide more robust result
+
+=> You will get the results statistics for Random or Grid Search once you fit the model
+
+
+* Confusion Metric :- In case of Binary Classif, Usage Confusion Metric is preferred
+  -------
+
+* Feature Importance & Likelihood
+  ------------
+
+   => To get the likelihoods calculated by Model :
+   		use feature_log_prob_  param on fitted classifier
+
+      ref : https://imgur.com/mWvE7gj

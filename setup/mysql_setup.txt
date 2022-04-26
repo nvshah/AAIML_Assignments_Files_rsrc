@@ -1,0 +1,5 @@
+* MySql
+
+https://dev.mysql.com/downloads/windows/installer/8.0.html (v 8.0.13)
+
+Root Password :- Admin Password

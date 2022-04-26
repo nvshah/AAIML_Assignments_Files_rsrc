@@ -1,0 +1,7 @@
+Python Concept ref
+
+[regex cheatsheet]
+https://www.dataquest.io/wp-content/uploads/2019/03/python-regular-expressions-cheat-sheet.pdf
+
+[Pandas Exercise Practice]
+https://www.machinelearningplus.com/python/101-pandas-exercises-python/

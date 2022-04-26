@@ -1,0 +1,55 @@
+System Setup
+
+# before we dive into ML lets setup our systems so that we can work with all our assignments, without facing problems
+
+# as a first step lets install anaconda, you can choose the link that are mentioned below
+choose the link which suits for your config
+# as i am using windows 64bit system i will be downloading it with this link
+https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
+
+# you can see its downloading.
+# you can see its downloaded
+#lets install it by clicking it
+# make sure in that installation path there should not be any spaces 
+# its better you install it like this 
+# make sure that you click on that "add path" if you missed this part you might see some glitches while installing packages
+
+#installation is complete
+# lets just verify it
+# its your call to install vs code if you want you can skip it
+# its working fine
+
+1. installing anaconda 
+	Windown 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86_64.exe 
+	Windown 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Windows-x86.exe 
+	Mac : https://repo.continuum.io/archive/Anaconda3-5.2.0-MacOSX-x86_64.sh 
+	Linux 64 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86_64.sh 
+	Linux 32 bit: https://repo.continuum.io/archive/Anaconda3-5.2.0-Linux-x86.sh 
+	Check the previous Archives of Anaconda: https://repo.continuum.io/archive/
+
+
+# we will be installing all these packages and verifying
+
+Package to be install
+1. plotly --- done
+2. gensim -- done
+3. graphviz -- this is used to plot decision tree, dask dataframe tree, DL models etc
+#  i have stopped kernle lets start jupyter notebook  --- done
+
+4. distance: note that this package is not part of the conda so we will be installing it with pip -- done
+5. fuzzy wazzy -- done
+6. imblearn -- done
+7. networkx -- done
+8. spacy - done
+9. foulim -- done
+10. tensorflow (only cpu) -- very usefull for DL -- done
+11. keras -- done
+12. prettytable - done
+13. tqdm - done
+14. xgboost
+16. gpxpy
+18. nltk.stopwords
+19. skmultilearn
+20. surprise
+21. stellargraph
+22. tensorboard

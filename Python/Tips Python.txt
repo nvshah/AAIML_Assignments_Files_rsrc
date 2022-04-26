@@ -1,0 +1,7 @@
+Tips
+
+* shutil :- shell util 
+
+
+Q) to unzip tar gz file :- shutil.unpack_archive()
+       

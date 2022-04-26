@@ -1,0 +1,9 @@
+Live Sessions Reference files
+
+---- Plotting ----
+
+[EDA Techniques]
+https://drive.google.com/file/d/1PeMVoFgzvJ8oWbCVT-6Chjay0xlnVN5x/view
+
+[Eda Seborn Plots]
+https://colab.research.google.com/drive/1bW7SEZk4FjsnEmIqnvQY77yfKVDlj5BR

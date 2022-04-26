@@ -1,0 +1,6 @@
+2. Linear Models Que/Doubt
+
+Q) Does Intercept Term is Required in Linear Models ? (like Linear Regression)
+   If yes then what is its Significance
+
+=> 

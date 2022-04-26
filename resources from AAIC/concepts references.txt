@@ -1,0 +1,24 @@
+concepts references
+
+[GB Explaination]
+https://explained.ai/gradient-boosting/index.html
+
+[calibration plots] 
+http://scikit-learn.org/stable/modules/calibration.html 
+
+----- 
+
+[Naive bayes Eg]
+https://www.math.upenn.edu/~mmerling/math107%20docs/practice%20on%20Bayes%20solutions.pdf http://gtribello.github.io/mathNET/bayes-theorem-problems.html http://wwwf.imperial.ac.uk/~ayoung/m2s1/WorkedExamples1.pdf
+
+[Probabilistic Interpretation]
+https://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
+
+[Genearlized Linear Model GLM]
+http://cs229.stanford.edu/notes2020spring/cs229-notes1.pdf
+
+[Decision Tree Material]
+https://homepage.cs.uri.edu/faculty/hamel/courses/2014/spring2014/csc581/lecture-notes/31-decision-trees.pdf
+
+[K-means]
+https://cs.wmich.edu/alfuqaha/summer14/cs6530/lectures/ClusteringAnalysis.pdf   

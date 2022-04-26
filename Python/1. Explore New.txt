@@ -1,0 +1,12 @@
+* Explore New
+---------
+
+for pdf :- pyPDF4
+
+Web Scraping :- 
+
+For Progress Plotting :- tqdm module
+
+For multiprocessing :- multiprocessing
+
+Python Virtual Env :- 
